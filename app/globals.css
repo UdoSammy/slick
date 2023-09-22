@@ -27,5 +27,18 @@ body {
 }
 
 .slick-slide div{
-  margin: 0 1rem;
+  margin: 0 1rem 0 0.5rem ; 
+}
+
+.slick-prev, .slick-next {
+  display:  none !important;
+}
+
+.slick-dots li button::before {
+  color: brown !important;
+  
+}
+
+.slick-dots li.slick-active button::before{
+  color: red !important;
 }

@@ -26,7 +26,7 @@ function page() {
         }
       },
       {
-        breakpoint: 600,
+        breakpoint: 768,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
@@ -44,7 +44,7 @@ function page() {
   };
 
   return (
-    <div className="p-16 bg-emerald-500 text-white h-screen">
+    <div className=" p-10 bg-emerald-500  text-white h-screen">
       <h1>Carousel</h1>
 
       <Slider {...settings}>
